@@ -19,17 +19,19 @@ block_weather.addEventListener("click", function(event){
 					</div>
 					<div class="col-sm-5 d-none d-sm-block">
 						<h2>Weather API</h2></br>
-						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
-						sit voluptatem accusantium doloremque laudantium, sit voluptatem accusantium doloremque laudantium,
-						</br></br></br><a href="https://unique-hamster-ccb302.netlify.app/" class="primary-link project-link">Launch project</a>
+						<p>An open-source web application that fetches an API key for weather data from 
+						<a href="https://openweathermap.org/">openweathermap.org</a>
+						and then shows it on the website (description, humidity, wind pressure)
+						</br></br><a href="https://unique-hamster-ccb302.netlify.app/" class="btn btn-primary btn-lg">Launch project</a>
 						</p>
 					</div>
 				</div>
 				<div class="container d-md-none" style="text-align:center;">
 						<h2>Weather API</h2></br>
-						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
-						sit voluptatem accusantium doloremque laudantium, sit voluptatem accusantium doloremque laudantium,
-						</br></br></br><a href="https://www.shecodes.io/workshops/shecodes-basics-f10c7b15-d969-4093-a572-a3ca8abd5cac/projects/807103" class="primary-link project-link">Launch project</a>
+						<p>An open-source web application that fetches an API key for weather data from 
+						<a href="https://openweathermap.org/">openweathermap.org</a>
+						and then shows it on the website (description, humidity, wind pressure)
+						</br></br><a href="https://www.shecodes.io/workshops/shecodes-basics-f10c7b15-d969-4093-a572-a3ca8abd5cac/projects/807103" class="btn btn-primary btn-lg">Launch project</a>
 						</p>
 				</div>
 			</div>`;
@@ -86,17 +88,15 @@ block_park.addEventListener("click", function(event){
 					</div>
 					<div class="col-sm-5 d-none d-sm-block">
 						<h2>Amusement park</h2></br>
-						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
-						sit voluptatem accusantium doloremque laudantium, sit voluptatem accusantium doloremque laudantium,
-						</br></br></br><a href="https://www.shecodes.io/workshops/shecodes-basics-f10c7b15-d969-4093-a572-a3ca8abd5cac/projects/807103" class="primary-link project-link">Launch project</a>
+						<p>A little site I have built as a project at the end of my <a href="https://www.shecodes.io/">SheCodes</a> basic workshop
+						</br></br><a href="https://www.shecodes.io/workshops/shecodes-basics-f10c7b15-d969-4093-a572-a3ca8abd5cac/projects/807103" class="btn btn-primary btn-lg">Launch project</a>
 						</p>
 					</div>
 				</div>
 				<div class="container d-md-none" style="text-align:center;">
 						<h2>Amusement park</h2></br>
-						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
-						sit voluptatem accusantium doloremque laudantium, sit voluptatem accusantium doloremque laudantium,
-						</br></br></br><a href="https://www.shecodes.io/workshops/shecodes-basics-f10c7b15-d969-4093-a572-a3ca8abd5cac/projects/807103" class="primary-link project-link">Launch project</a>
+						<p>A little site I have built as a project at the end of my <a href="https://www.shecodes.io/">SheCodes</a> basic workshop
+						</br></br><a href="https://www.shecodes.io/workshops/shecodes-basics-f10c7b15-d969-4093-a572-a3ca8abd5cac/projects/807103" class="btn btn-primary btn-lg">Launch project</a>
 						</p>
 				</div>
 			</div>;`
