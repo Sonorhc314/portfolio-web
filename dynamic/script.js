@@ -17,7 +17,7 @@ block_weather.addEventListener("click", function(event){
 					<div class="col-sm-7">
 						<img src="styles/weather.png" class="img-fluid p-2 shadow rounded d-none d-sm-block"/>
 					</div>
-					<div class="col-sm-5">
+					<div class="col-sm-5 d-none d-sm-block">
 						<h2>Weather API</h2></br>
 						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
 						sit voluptatem accusantium doloremque laudantium, sit voluptatem accusantium doloremque laudantium,
@@ -77,13 +77,20 @@ block_park.addEventListener("click", function(event){
 						<!--/ Copy this code to have a working example -->
 					  </div>
 					</div>
-					<div class="col-sm-5">
+					<div class="col-sm-5 d-none d-sm-block">
 						<h2>Amusement park</h2></br>
 						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
 						sit voluptatem accusantium doloremque laudantium, sit voluptatem accusantium doloremque laudantium,
 						</br></br></br><a href="https://www.shecodes.io/workshops/shecodes-basics-f10c7b15-d969-4093-a572-a3ca8abd5cac/projects/807103" class="primary-link project-link">Launch project</a>
 						</p>
 					</div>
+				</div>
+				<div class="container d-md-none" style="text-align:center;">
+						<h2>Amusement park</h2></br>
+						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+						sit voluptatem accusantium doloremque laudantium, sit voluptatem accusantium doloremque laudantium,
+						</br></br></br><a href="https://www.shecodes.io/workshops/shecodes-basics-f10c7b15-d969-4093-a572-a3ca8abd5cac/projects/807103" class="primary-link project-link">Launch project</a>
+						</p>
 				</div>
 			</div>;`
 			
