@@ -31,7 +31,7 @@ block_weather.addEventListener("click", function(event){
 						<p>An open-source web application that fetches an API key for weather data from 
 						<a href="https://openweathermap.org/">openweathermap.org</a>
 						and then shows it on the website (description, humidity, wind pressure)
-						</br></br><a href="https://www.shecodes.io/workshops/shecodes-basics-f10c7b15-d969-4093-a572-a3ca8abd5cac/projects/807103" class="btn btn-primary btn-lg">Launch project</a>
+						</br></br><a href="https://unique-hamster-ccb302.netlify.app/" class="btn btn-primary btn-lg">Launch project</a>
 						</p>
 				</div>
 			</div>`;
