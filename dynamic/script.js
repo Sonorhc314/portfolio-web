@@ -31,15 +31,51 @@ block_weather.addEventListener("click", function(event){
 		
 block_park.addEventListener("click", function(event){
 			img_choice.innerHTML = `
-			<div class="container", style="margin-top:60px;">
+			<div class="container", style="margin-top:60px;margin-bottom:60px;">
 				<div class="row">
-					<div class="col-sm-5">
-						<img src="styles/park.png" class="img-fluid mx-auto d-none d-sm-block shadow rounded" style="height:60%;" id="main_img"/>
-					</div>
-					<div class="col-sm-2">
-						<img src="styles/park2.png" id="park2" class="miniimg_org img-fluid d-none d-sm-block shadow rounded"/>
-						<img src="styles/park3.png" id="park3" class="miniimg_org img-fluid mt-2 d-none d-sm-block shadow rounded"/>
-						<img src="styles/park.png" id="park" class="miniimg_org img-fluid mt-2 d-none d-sm-block shadow rounded"/>
+					<div class="col-sm-7">
+						<div class="border p-3 d-none d-sm-block">
+						<!-- Copy this code to have a working example -->
+						<div class="ecommerce-gallery" data-mdb-activation="mouseenter">
+						  <div class="row">
+							<div class="col-12 mb-1">
+							  <div class="img-fluid p-2 shadow rounded d-none d-sm-block">
+								<img
+									 src="styles/park.png"
+									 id="main_img"
+									 alt="Gallery image 1"
+									 class="ecommerce-gallery-main-img active w-100"
+									 />
+							  </div>
+							</div>
+							<div class="col-4 my-3">
+							  <img
+								   src="styles/park2.png"
+								   id="park2"
+								   alt="Gallery image 1"
+								   class="active w-100 miniimg_org img-fluid p-2 shadow rounded d-none d-sm-block"
+								   />
+							</div>
+							<div class="col-4 my-3">
+							  <img
+								   src="styles/park.png"
+								   id="park"
+								   alt="Gallery image 2"
+								   class="w-100 miniimg_org img-fluid p-2 shadow rounded d-none d-sm-block"
+								   />
+							</div>
+							<div class="col-4 my-3">
+							  <img
+								   src="styles/park3.png"
+								   id="park3"
+								   alt="Gallery image 3"
+								   class="w-100 miniimg_org img-fluid p-2 shadow rounded d-none d-sm-block"
+								   />
+							</div>
+						  </div>
+						</div>
+						<!--/ Copy this code to have a working example -->
+					  </div>
 					</div>
 					<div class="col-sm-5">
 						<h2>Amusement park</h2></br>
@@ -49,7 +85,7 @@ block_park.addEventListener("click", function(event){
 						</p>
 					</div>
 				</div>
-			</div>`;
+			</div>;`
 			
 		  let park2 = document.querySelector("#park2");
 		  let park3 = document.querySelector("#park3");
@@ -69,7 +105,3 @@ block_park.addEventListener("click", function(event){
 		});
 		
 	
-projects.addEventListener("click", function(event)
-{
-	
-});
