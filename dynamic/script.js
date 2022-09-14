@@ -88,15 +88,16 @@ block_park.addEventListener("click", function(event){
 					</div>
 					<div class="col-sm-5 d-none d-sm-block">
 						<h2>Amusement park</h2></br>
-						<p>A little site I have built as a project at the end of my <a href="https://www.shecodes.io/">SheCodes</a> basic workshop
+						<p>A little site I built as a project at the end of my <a href="https://www.shecodes.io/">SheCodes</a> basic workshop
 						</br></br><a href="https://www.shecodes.io/workshops/shecodes-basics-f10c7b15-d969-4093-a572-a3ca8abd5cac/projects/807103" class="btn btn-primary btn-lg">Launch project</a>
 						</p>
 					</div>
 				</div>
 				<div class="container d-md-none" style="text-align:center;">
 						<h2>Amusement park</h2></br>
-						<p>A little site I have built as a project at the end of my <a href="https://www.shecodes.io/">SheCodes</a> basic workshop
-						</br></br><a href="https://www.shecodes.io/workshops/shecodes-basics-f10c7b15-d969-4093-a572-a3ca8abd5cac/projects/807103" class="btn btn-primary btn-lg">Launch project</a>
+						<p>A little site I built as a project at the end of my <a href="https://www.shecodes.io/">SheCodes</a> basic workshop
+						</br></br><a href="https://www.shecodes.io/workshops/shecodes-basics-f10c7b15-d969-4093-a572-a3ca8abd5cac/projects/807103" class="btn btn-primary btn-lg disabled">Launch project</a>
+						</br><span style="font-size:15px;">(currently disabled for mobile devices)</span>
 						</p>
 				</div>
 			</div>;`
