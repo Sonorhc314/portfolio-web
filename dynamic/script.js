@@ -1,7 +1,7 @@
 let img_choice = document.querySelector("#choice_img");
 
-let block_park =document.querySelector("#block_park");
-let block_weather =document.querySelector("#block_weather");
+let block_park = document.querySelector("#block_park");
+let block_weather = document.querySelector("#block_weather");
 
 let projects = document.querySelector("#projects");
 
@@ -9,9 +9,8 @@ let projects_nav = document.querySelector("#projects_nav");
 let about_nav = document.querySelector("#about_nav");
 let contact_nav = document.querySelector("#contact_nav");
 
-
-block_weather.addEventListener("click", function(event){
-			img_choice.innerHTML = `
+block_weather.addEventListener("click", function (event) {
+  img_choice.innerHTML = `
 			<div class="container", style="margin-top:60px;margin-bottom:60px;">
 				<div class="row">
 					<div class="col-sm-7">
@@ -35,11 +34,33 @@ block_weather.addEventListener("click", function(event){
 						</p>
 				</div>
 			</div>`;
-		});
-		
-		
-block_park.addEventListener("click", function(event){
-			img_choice.innerHTML = `
+});
+
+block_calculator.addEventListener("click", function (event) {
+  img_choice.innerHTML = `
+			<div class="container", style="margin-top:60px;margin-bottom:60px;">
+				<div class="row">
+					<div class="col-sm-7">
+						<img src="styles/calculator_block.png" class="img-fluid p-2 shadow rounded d-none d-sm-block"/>
+					</div>
+					<div class="col-sm-5 d-none d-sm-block">
+						<h2>Web calculator</h2></br>
+						<p>A simplified open-source web calculator I created during my web development courses
+						</br></br><a href="https://tiny-lokum-edb1bf.netlify.app/" class="btn btn-primary btn-lg">Launch project</a>
+						</p>
+					</div>
+				</div>
+				<div class="container d-md-none" style="text-align:center;">
+						<h2>Web calculator</h2></br>
+						<p>A simplified open-source web calculator I created during my web development courses
+						</br></br><a href="https://tiny-lokum-edb1bf.netlify.app/" class="btn btn-primary btn-lg">Launch project</a>
+						</p>
+				</div>
+			</div>`;
+});
+
+block_park.addEventListener("click", function (event) {
+  img_choice.innerHTML = `
 			<div class="container", style="margin-top:60px;margin-bottom:60px;">
 				<div class="row">
 					<div class="col-sm-7">
@@ -100,23 +121,20 @@ block_park.addEventListener("click", function(event){
 						</br><span style="font-size:15px;">(currently disabled for mobile devices)</span>
 						</p>
 				</div>
-			</div>;`
-			
-		  let park2 = document.querySelector("#park2");
-		  let park3 = document.querySelector("#park3");
-		  let park = document.querySelector("#park");
-		  let main_img = document.querySelector("#main_img");
-		  
-		  
-		  park2.onclick = function() {
-			  main_img.src = "styles/park2.png";
-		  }		  
-		  park3.onclick = function() {
-			  main_img.src = "styles/park3.png";
-		  }
-		  park.onclick = function() {
-			  main_img.src = "styles/park.png";
-		  }
-		});
-		
-	
+			</div>;`;
+
+  let park2 = document.querySelector("#park2");
+  let park3 = document.querySelector("#park3");
+  let park = document.querySelector("#park");
+  let main_img = document.querySelector("#main_img");
+
+  park2.onclick = function () {
+    main_img.src = "styles/park2.png";
+  };
+  park3.onclick = function () {
+    main_img.src = "styles/park3.png";
+  };
+  park.onclick = function () {
+    main_img.src = "styles/park.png";
+  };
+});
